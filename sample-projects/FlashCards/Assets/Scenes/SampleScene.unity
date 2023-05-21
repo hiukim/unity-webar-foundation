@@ -156,7 +156,7 @@ MonoBehaviour:
   autoStart: 1
   facingUser: 0
   maxTrack: 1
-  stability: 4
+  stability: 5
 --- !u!4 &132058032
 Transform:
   m_ObjectHideFlags: 0
