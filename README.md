@@ -1,7 +1,9 @@
 ![unity-webar-foundation](https://github.com/hiukim/unity-webar-foundation/assets/459126/c7c2559d-cde9-43cd-846a-cf490ce99bb3)
 
 # Unity WebAR Foundation
-Unity WebAR Foundation is a unity package for building WebGL based AR applications for Unity. It's similar to ARFoundation, but for building web app instead of native app. The package itself is a wrapper around popular WebAR SDKs.
+Unity WebAR Foundation is a unity package for building WebGL based AR applications for Unity. It's similar to ARFoundation, but for building web app instead of native app. The package itself is a wrapper around popular WebAR SDKs. 
+
+The package can be obtained here: [Unity WebAR Foundation](https://assetstore.unity.com/packages/tools/integration/webar-foundation-250806)
 
 At this point, it supports Image Tracking and Face Tracking AR effects.
 
