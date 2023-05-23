@@ -11,3 +11,7 @@ table td {
 p.step {
     margin-bottom: 50px;
 }
+
+ul.contents {
+    font-size: 2em;
+}
