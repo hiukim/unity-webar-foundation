@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Image Tracking Quick Start</h1>
+
+        <p>WebAR Foundation is super developer friendly. Check out this video to see how a AR web app is built in 2 minutes from a scratch Unity Project!</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2G93OOE5qW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h2>
+            Position Content
+        </h2>
+        <p>
+            To position your content in editor, the easiest way is to add a "Quad" under the ImageTracker.
+            Right click "Image Tracker" -> "3D Object" -> "Quad"
+        </p>
+        <img src="./assets/image-tracking-quickstart/quad.png" width="800px"/>
+        <p>
+            By default, the `quad` pose will be your detected target image. The width of the quad is exactly the same as the width of your target image. The height varies depending on your target image aspect ratio.
+        </p>
+        <p>
+            So you can add your content and position it relative to the quad. When you are done, you can disable the `Quad`.
+        </p>
+
+        <h2>
+            Mind File URL Streaming Assets
+        </h2>
+        <p>
+            Under the `Mind AR Image Tracking Manager` component of the `Image AR Session`, you need to specify the URL of the Mind File.
+            You can obtain this .mind file with <a href="https://hiukim.github.io/mind-ar-js-doc/tools/compile" target="_blank">MindAR online compiler</a>
+
+            Now, there are two ways to specify the location of the .mind file:
+        </p>
+
+        <p>
+            1. You can put the file under `StreamingAssets` folder under `Assets`. `StreamingAssets` is a special folder for Unity. Everything inside this folder will be copied to the built app. Then you can specify the path as `StreamingAssets/targets.mind`
+        </p>
+
+        <p>
+            2. You can upload the .mind file to a public accessible URL, and simply put that down, e.g. `https://cdn.jsdelivr.net/npm/mind-ar@1.2.1/examples/image-tracking/assets/card-example/card.mind`
+        </p>
+
+        <h2>
+            Editor Debug
+        </h2>
+        <p>
+            WebAR Foundation comes with a handy debugger that can be run in Editor, so you don't need to build it everytime you make changes.
+
+            Please refer to: <a href="./image-tracking-debugger.html">Image Tracking Debugger</a>
+        </p>
+
+    </body>
+</html>

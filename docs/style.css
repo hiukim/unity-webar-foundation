@@ -1,4 +1,13 @@
+table td {
+    vertical-align: top;
+    padding: 10px;
+}
+
 .target-image {
     width: 200px;
     height: 200px;
+}
+
+p.step {
+    margin-bottom: 50px;
 }

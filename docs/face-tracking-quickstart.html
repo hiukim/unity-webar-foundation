@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Face Tracking Quick Start</h1>
+
+        <p>WebAR Foundation is super developer friendly. Check out this video to see how a AR web app is built in 3 minutes from a scratch Unity Project!</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LkrZr2LKXDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h2>
+            Face Mask Effect
+        </h2>
+        <p>
+            If you want to build a Face Mask effect, one easiest way is to download this base image. Then open a photo editor (e.g. photoshop), create two layers, with this image below. Now draw on the top layer referencing the base image. When you are done, hide the bottom layer and export it as png (with transparency).
+            </br>
+            <img src="./assets/face-tracking-quickstart/faceMeshTrackers.png" width="400px"/>
+        </p>
+
+        <h2>
+            Occluder in Face Effect
+        </h2>
+
+        <p>
+            2. If you are building Virtual tryon effect, you most likely want to have the "Human Face" hiding 3D objects hide. This technique is called occlusion. To do that, assign a occluder materials to the `MeshRenderer` on the FaceTracker. Refer to the "TryOn" sample project for reference if needed.
+        </p>
+
+        <h2>
+            Editor Debug
+        </h2>
+
+        <p>
+            WebAR Foundation comes with a handy debugger that can be run in Editor, so you don't need to build it everytime you make changes.
+
+            Please refer to: <a href="./face-tracking-debugger.html">Face Tracking Debugger</a>
+        </p>
+    </body>
+</html>
