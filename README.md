@@ -10,7 +10,7 @@ At this point, it supports Image Tracking and Face Tracking AR effects.
 # Sample projects
 Checkout our [Sample Projects](https://hiukim.github.io/unity-webar-foundation/examples.html) here (with live URL for you to try)
 
-All the source code of the demo projects can be found in this repo under `sample-projects`. Noted that you will need to obtain the `unity-webar-foundation` package and import it in the project before you can run it.
+All the source code of the demo projects can be found in this repo under `sample-projects`. Noted that you will need to obtain the [unity-webar-foundation](https://assetstore.unity.com/packages/tools/integration/webar-foundation-250806) package and import it in the project before you can run it.
 
 
 # Quick Start
